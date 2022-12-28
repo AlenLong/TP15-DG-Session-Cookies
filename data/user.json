@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Jhon",
+        "email": "romero@id.com",
+        "edad": "",
+        "pass": "$2a$12$PRJOIks3BVa.VE2NL67cFOUDtnaglw.B41.wXbjbsUWn2CUDhL2ye",
+        "colors": "#ff0000",
+        "rol": "usuario"
+    },
+    {
+        "id": 2,
+        "name": "Ellen",
+        "email": "last@survivor.com",
+        "edad": "",
+        "pass": "$2a$12$sIunCeRemLQ0Z1acftIOmu7EwQjv8CshULeL56rQpnlxFPrUk/.4C",
+        "colors": "#e5b5b0",
+        "rol": "usuario"
+    },
+    {
+        "id": 3,
+        "name": "Morphy",
+        "email": "robocop@ocp.com",
+        "edad": "35",
+        "pass": "$2a$12$4n5L.PO3fQ5A3HJnGmyL9./ek2AOv0pZ7Kw2/YL3wF.ELRnnxFgKq",
+        "colors": "#fbff00",
+        "rol": "usuario"
+    }
+]

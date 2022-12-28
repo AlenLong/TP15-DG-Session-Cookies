@@ -1,0 +1,17 @@
+<header>
+    <div><img src="" alt=""></div>
+    <nav>
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <% if (locals.userLogin) { %>
+                <li><a href="#">Bienvenido <%= locals.userLogin.nombre %> </a></li>
+                <form action="/users/logout?_method=DELETE" method="post">
+                    <button type="submit">LOGOUT</button>
+                </form>
+            <% } else { %>
+            <li><a href="/users/login">LOGIN</a></li>
+            <li><a href="/users/register">REGISTER</a></li>
+            <% } %> 
+        </ul>
+    </nav>
+</header>
